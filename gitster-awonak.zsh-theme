@@ -1,0 +1,1 @@
+../.oh-my-zsh/themes/gitster-awonak.zsh-theme
