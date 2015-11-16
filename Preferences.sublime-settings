@@ -4,29 +4,13 @@
     "color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
     "create_window_at_startup": false,
     "draw_white_space": "all",
-    "folder_exclude_patterns":
-    [
-        ".svn",
-        ".git",
-        ".DS_Store",
-        "__pycache__",
-        "*.pyc",
-        "*.pyo",
-        "*.exe",
-        "*.dll",
-        "*.obj",
-        "*.o",
-        "*.a",
-        "*.lib",
-        "*.so",
-        "*.dylib",
-        "*.ncb",
-        "*.sdf",
-        "*.suo",
-        "*.pdb",
-        "*.idb",
-        ".DS_Store",
-        "*.psd"
+    "file_exclude_patterns": [
+        "*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib",
+        "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb",
+        ".DS_Store", "*.class", "*.psd", "*.db", "*.egg"
+    ],
+    "folder_exclude_patterns": [
+        ".svn", ".git", ".hg", "*.egg*"
     ],
     "font_face": "Source Code Pro",
     "font_size": 15.0,
